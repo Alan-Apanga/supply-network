@@ -303,7 +303,7 @@ itinerary_df["Color"] = itinerary_df["Truck"].map(truck_colors)
 
 
 
-st.set_page_config(layout="wide")
+
 st.set_page_config(
     page_title="Supply Chain Network Dashboard",
     page_icon=":trophy:",
