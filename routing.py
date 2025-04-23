@@ -12,7 +12,7 @@ import pandas as pd
 
 import streamlit as st
 import leafmap.foliumap as leafmap
-#import geopandas 
+import geopandas 
 import folium
 
 from pulp import value
