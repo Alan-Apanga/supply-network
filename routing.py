@@ -21,7 +21,13 @@ from model import build_model
 from dotenv import load_dotenv
 import os
 
-
+#%%
+st.set_page_config(
+    page_title="Supply Chain Network Dashboard",
+    page_icon=":truck:",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 
 #%%
 
@@ -304,12 +310,7 @@ itinerary_df["Color"] = itinerary_df["Truck"].map(truck_colors)
 
 
 
-st.set_page_config(
-    page_title="Supply Chain Network Dashboard",
-    page_icon=":trophy:",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
+
 
 #-------------Sidebar--------------
 
