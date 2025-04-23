@@ -5,3 +5,4 @@ pandas==2.2.3
 pulp==3.1.1
 python-dotenv==1.1.0
 streamlit==1.44.1
+geopandas==1.0.1
